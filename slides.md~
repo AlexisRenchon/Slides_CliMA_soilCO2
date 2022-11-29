@@ -68,7 +68,6 @@ Alexandre A. Renchon, Katherine Deck
 * test/Soil/Biogeochemistry
   * co2_parameterizations.jl
 
-
 ---
 
 # DETECT model
@@ -92,6 +91,22 @@ for src in model.sources
     source!(dY, src, Y, p, model.parameters)
 end
 ```
+---
+
+# DETECT model
+
+Figure 1 from DETECT manuscript
+
+<img border="rounded" src="https://gmd.copernicus.org/articles/11/1909/2018/gmd-11-1909-2018-f01.png" style="width:650px;height:400px;">
+
+
+---
+layout: iframe-right
+
+# the web page source
+url: https://cupoftea.earth/menu1/ 
+# a custom class name to the content
+class: my-cool-content-on-the-right
 
 --- 
 
